@@ -6,9 +6,11 @@
   "name": "vart-bot",
   "version": "1.0.0",
   "description": "Discord green bot",
-  "main": "main.js",
+  "main": "src/main.js",
   "devDependencies": {},
   "scripts": {
+    "node": "node src/main.js",
+    "nodemon": "nodemon src/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Wojrek#0001",
